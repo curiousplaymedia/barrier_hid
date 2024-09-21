@@ -14,8 +14,8 @@ echo 0x0100 > bcdDevice # v1.0.0
 echo 0x0200 > bcdUSB # USB2
 mkdir -p strings/0x409
 echo "314159" > strings/0x409/serialnumber
-echo "karepiu" > strings/0x409/manufacturer
-echo "Raspbery Pi Zero W HID" > strings/0x409/product
+echo "Logitech" > strings/0x409/manufacturer
+echo "Logitech, Inc. Unifying Receiver" > strings/0x409/product
 
 A_N="mouse"
 mkdir -p functions/hid.$A_N
