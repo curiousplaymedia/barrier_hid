@@ -8,8 +8,8 @@ modprobe libcomposite
 cd /sys/kernel/config/usb_gadget/
 mkdir -p g1
 cd g1
-echo 0x1d6b > idVendor # Linux Foundation
-echo 0x0104 > idProduct # Multifunction Composite Gadget
+echo 0x046D > idVendor # Logitech
+echo 0xC52B > idProduct # Unifying Receiver
 echo 0x0100 > bcdDevice # v1.0.0
 echo 0x0200 > bcdUSB # USB2
 mkdir -p strings/0x409
